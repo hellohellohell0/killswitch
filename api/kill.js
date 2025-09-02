@@ -1,6 +1,5 @@
-let redirectUrl = "none"; // default state
-
+// /api/kill.js
 export default function handler(req, res) {
-  res.setHeader("Access-Control-Allow-Origin", "*"); // allow frontend to call
-  res.status(200).send(redirectUrl);
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.status(200).send("none"); // your redirect URL
 }
