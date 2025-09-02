@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 // default state
-let redirectUrl = "none";
+let redirectUrl = "https://google.com";
 
 // endpoint the clients will poll
 app.get("/killswitch", (req, res) => {
